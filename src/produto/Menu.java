@@ -1,4 +1,4 @@
-package estoque;
+package produto;
 
 import java.util.Scanner;
 
@@ -18,7 +18,7 @@ public class Menu {
 			System.out.println("****************************************************");
 			System.out.println("                                                    ");
 			System.out.println("           1 - Cadastrar Produto                    ");
-			System.out.println("           2 - Listar Todos os Produtos             ");
+			System.out.println("           2 - Listar Produtos                      ");
 			System.out.println("           3 - Buscar Produto por ID                ");
 			System.out.println("           4 - Atualizar Dados do Produto           ");
 			System.out.println("           5 - Excluir um Produto                   ");
