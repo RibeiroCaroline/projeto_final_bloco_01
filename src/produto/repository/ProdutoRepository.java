@@ -9,5 +9,7 @@ public interface ProdutoRepository {
 	public void cadastrar(Produto produto);
 	public void atualizar(Produto produto);
 	public void deletar(int id);
+	public void listarEstoqueBaixo();
+	public void listarPadrao();
 
 }

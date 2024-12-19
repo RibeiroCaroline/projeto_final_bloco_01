@@ -3,32 +3,32 @@ package produto.model;
 public class ProdutoMaquiagem extends Produto{
 	
 	
-	private String tomDePele;
+	private String marca;
 
-	public ProdutoMaquiagem(int quantidade, int id, float preco, String nome, String tomDePele) {
+	public ProdutoMaquiagem(int id, String nome, int quantidade, float preco, String marca) {
 		super(id, nome, quantidade, preco);
 		
-		this.tomDePele = tomDePele;
+		this.marca = marca;
 	}
 	
 	public ProdutoMaquiagem(int id, String nome, int quantidade, float preco) {
 		super(id, nome, quantidade, preco);
 		
-		this.tomDePele = "Pardo";
+		this.marca = "Sem Marca";
 	}
 
-	public String getTomDePele() {
-		return tomDePele;
+	public String getMarca() {
+		return marca;
 	}
 
-	public void setTomDePele(String tomDePele) {
-		this.tomDePele = tomDePele;
+	public void setMarca(String marca) {
+		this.marca = marca;
 	}
 
 	public void visualizar() {
 		super.visualizar();
 		
-		System.out.println("Tom de Pele: " + this.tomDePele);
+		System.out.println("Marca: " + this.marca);
 	}
 	
 }
